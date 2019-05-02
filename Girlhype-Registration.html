@@ -1,0 +1,148 @@
+<html>  
+<head>
+    
+    <title> Girlhype - Application Form  </title>
+    
+    <style> 
+/*        This style is for input boxes.*/
+ 
+        input, input, textarea , select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+        
+/*        STYLE FOR Form BUTTON*/
+        .button{
+            
+            background-color: #145A32;
+            color: #fff;
+            padding: 10px;
+        }
+        
+    
+        .menu {
+            
+            background-color: #000;
+            height: 50px;
+            
+            color: #fff;
+        }
+        
+        .menu a {
+            
+            color: #fff;
+            display: inline-block;
+            text-decoration: none; 
+            padding: 10px;
+            font-size: 20px;
+        }
+        
+        .menu a:hover {
+            
+            background-color: #fff;
+            color: #000;
+        }
+        
+        form {
+            Top: 200px;
+            width: 500px;
+            margin: 0 auto;
+        }
+        
+        input {
+            margin: 10px;
+            display: block;
+            height: 15px;
+            
+        }
+        
+        button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+        
+        .footer{
+            
+            height: 50px;
+            background-color: aquamarine;
+        }
+    </style>
+    
+    </head>
+    
+    <body>  
+        
+<!--        This is a section for the menu-->
+    <div class="menu"> 
+        
+        <a href="Girlhype-Registration.html"> Home Page</a> 
+        
+        <a href="about.html"> About Us </a>
+        
+        <a href="services.html"> Our Services</a>
+        
+        <a href="contact.html"> Contact Us</a>
+        
+        </div>
+        
+<!--        This is where the menu section ends-->
+<!--        Registration form section-->
+        
+        <div class="registrationform">
+            
+            <h1>Enter Your Details Below</h1>
+            
+            <form action="Girlhype-Registration.html" method="post"> 
+            
+            <input type="text" name="fullnames" placeholder="name and surname" />
+                
+              <input type="email" name="email" placeholder="enter your email" />
+                
+                <input type="password" name="password" placeholder="enter password" />
+                
+                <input type="password" name="password1" placeholder="confirm password" />
+                
+                <label> date of birth </label>
+                
+                <input type="date" name="dateofbirth" />
+                
+                <select name="Gender">
+                    
+                    <option>
+                    -----
+                    </option>
+                    
+                    <option value="male">male</option>
+                    
+                    <option value="female">female</option>
+                
+                </select>
+                
+                <button type="submit" value="Register" >register</button>
+                
+            </form>
+        
+            
+            
+        </div>
+<!--        Registration form closes-->
+        
+        <div class="footer">
+        
+        </div>
+    
+    </body>
+</html>
